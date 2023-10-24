@@ -9,6 +9,12 @@ Il met en évidence les avantages de JSP dans le contexte de la gestion des mach
 JavaServer Pages (JSP) est une technologie de programmation Java qui permet de créer des pages web dynamiques en intégrant du code Java directement dans des pages HTML.
 JSP facilite le développement d'applications web en permettant l'inclusion de code Java pour générer du contenu dynamique côté serveur.
 
+## La structure du projet est organisée de la manière suivante :
+
+src/main/java : Ce répertoire contient les fichiers source Java et les packages de votre projet, où vous placez les classes et interfaces Java.
+src/main/webapp : Cette section regroupe les fichiers JSP (JavaServer Pages) pour créer des pages web dynamiques, ainsi que les ressources web statiques telles que les fichiers HTML, CSS, JavaScript, images, etc.
+src/main/resources : Dans ce répertoire, vous stockez les fichiers de configuration, notamment le fichier de configuration Hibernate (hibernate.cfg.xml) si vous utilisez le framework Hibernate pour la persistance des données. C'est également l'emplacement des ressources non Java de votre projet.
+
 # Avantages de JSP dans la Conception de l'Interface Machine
 Utilisation de JSP pour concevoir l'interface machine présente plusieurs avantages :
 ## Séparation de la Logique et de la Présentation : 
@@ -26,7 +32,7 @@ JSP peut être combiné avec d'autres technologies Java pour interagir avec dive
 
 ![image](https://github.com/ghita-baghdad/tp-JSP/assets/147449053/c332a6e7-b5b4-4fbb-9a5c-6a130155e861)
 
-# Les Differentes interactions :
+# Les Differentes interactions avec l'interface :
 
 ## Ajout :
 ![image](https://github.com/ghita-baghdad/tp-JSP/assets/147449053/fbf5e54c-e225-4e1f-b0db-74b056cd4369)
